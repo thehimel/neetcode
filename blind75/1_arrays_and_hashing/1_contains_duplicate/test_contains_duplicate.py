@@ -1,3 +1,5 @@
+"""Author: Himel Das"""
+
 import pytest
 from contains_duplicate import contains_duplicate
 
