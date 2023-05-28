@@ -1,6 +1,8 @@
 """
 20. Valid Parentheses
 https://leetcode.com/problems/valid-parentheses/
+
+Note: Try with 2 pointers.
 """
 
 
