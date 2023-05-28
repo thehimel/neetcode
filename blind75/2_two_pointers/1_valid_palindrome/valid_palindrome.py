@@ -1,6 +1,8 @@
 """
 125. Valid Palindrome
 https://leetcode.com/problems/valid-palindrome/
+
+is_palindrome_optimized() is available.
 """
 
 
@@ -9,6 +11,8 @@ def is_palindrome(s: str) -> bool:
     Author: Himel Das
     TC: O(N)
     SC: O(N)
+
+    Cons: Uses extra memory.
     """
     sentence = ""
     for char in s:
