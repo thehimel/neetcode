@@ -2,6 +2,7 @@
 
 import pytest
 from group_anagrams import group_anagrams
+from group_anagrams_optimized import group_anagrams_optimized
 
 
 @pytest.mark.parametrize("test_input, expected", [
@@ -10,3 +11,4 @@ from group_anagrams import group_anagrams
     (["a"], [["a"]])])
 def test_contains_duplicate(test_input, expected):
     assert group_anagrams(test_input) == expected
+    assert group_anagrams_optimized(test_input) == expected
