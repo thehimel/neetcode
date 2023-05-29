@@ -9,7 +9,9 @@ def group_anagrams(strs: list[str]) -> list[list[str]]:
     """
     Author: Himel Das
 
-    TC: O(M.NlogN) where NlogN is the TC for sorting each word, and M is the length of the input list.
+    TC: O(M.NlogN)
+        Here N is the length for each word, then NlogN is the TC for sorting each word.
+        M is the length of the input list. We need to sort the words M times. Thus, total TC is O(M.NlogN).
     SC: O(N)
     """
     dictionary = {}
