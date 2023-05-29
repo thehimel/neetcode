@@ -1,0 +1,16 @@
+python blind75/1_arrays_and_hashing/5_top_k_frequent/top_k_frequent_optimized.py
+
+input: nums = [1, 1, 1, 2, 2, 3], k = 2
+count: {1: 3, 2: 2, 3: 1}
+freq: [[], [3], [2], [1], [], [], []]
+res: [1, 2]
+
+input: nums = [1, 2, 3, 4, 5, 6], k= 2
+count: {1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1}
+freq: [[], [1, 2, 3, 4, 5, 6], [], [], [], [], []]
+res: [1, 2]
+
+input: nums = [2, 2, 2, 2, 2, 3, 4, 4, 6, 6], k= 3
+count: {2: 5, 3: 1, 4: 2, 6: 2}
+freq: [[], [3], [4, 6], [], [], [2], [], [], [], [], []]
+res: [2, 4, 6]
