@@ -15,5 +15,6 @@ def top_k_frequent(nums: list[int], k: int) -> list[int]:
     dictionary = defaultdict(int)
     for n in nums:
         dictionary[n] += 1
+    # Sort the dictionary based on the values in reverse order.
     sorted_dictionary = dict(sorted(dictionary.items(), key=lambda item: item[1], reverse=True))
     return list(sorted_dictionary.keys())[:k]
