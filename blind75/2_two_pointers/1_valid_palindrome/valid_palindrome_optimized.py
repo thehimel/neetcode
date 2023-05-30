@@ -1,11 +1,13 @@
 """
-ASCII Table: https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
+125. Valid Palindrome
+https://leetcode.com/problems/valid-palindrome/
 """
 
 
 def is_alphanum(char: str) -> bool:
     """
     Author: Neetcode
+    ASCII Table: https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
     """
     # The ord() function returns the ASCII value of the character.
     return (ord("A") <= ord(char) <= ord("Z") or

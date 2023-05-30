@@ -1,8 +1,7 @@
 """
 125. Valid Palindrome
 https://leetcode.com/problems/valid-palindrome/
-
-is_palindrome_optimized() is available.
+Note: Optimized version available.
 """
 
 
