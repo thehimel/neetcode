@@ -1,7 +1,6 @@
 """
 347. Top K Frequent Elements
 https://leetcode.com/problems/top-k-frequent-elements/
-
 Note: Optimized version available.
 """
 from collections import defaultdict
