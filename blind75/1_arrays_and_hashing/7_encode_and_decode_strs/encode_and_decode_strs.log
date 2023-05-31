@@ -1,0 +1,9 @@
+python /Users/admin/drive/code/neetcode/blind75/1_arrays_and_hashing/7_encode_and_decode_strs/encode_and_decode_strs.py
+
+encode:
+input: ['Hello', 'World!', '2023']
+output: 5#Hello6#World!4#2023
+
+decode:
+input: 5#Hello6#World!4#2023
+output: ['Hello', 'World!', '2023']
