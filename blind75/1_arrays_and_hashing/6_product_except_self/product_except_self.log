@@ -1,0 +1,18 @@
+python blind75/1_arrays_and_hashing/6_product_except_self/product_except_self.py
+
+input = [1, 2, 3, 4]
+res = [1, 1, 1, 1]
+
+prefix operation:
+prefix = 1, res = [1, 1, 1, 1]
+prefix = 2, res = [1, 1, 1, 1]
+prefix = 6, res = [1, 1, 2, 1]
+prefix = 24, res = [1, 1, 2, 6]
+
+postfix operation:
+postfix = 1, res = [1, 1, 2, 6]
+postfix = 4, res = [1, 1, 2, 6]
+postfix = 12, res = [1, 1, 8, 6]
+postfix = 24, res = [1, 12, 8, 6]
+
+output = [24, 12, 8, 6]
