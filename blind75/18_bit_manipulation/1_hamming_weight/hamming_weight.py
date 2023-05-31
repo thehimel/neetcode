@@ -10,6 +10,7 @@ def hamming_weight(n: int) -> int:
     TC: O(32) = O(1). Because there is 32 bits.
     SC: O(1)
     Con: The operation is executed for all 1's and 0's
+    Note: Optimized version available.
     """
     res = 0
     while n:
