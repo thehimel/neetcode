@@ -1,3 +1,7 @@
+"""
+Author: Himel Das
+"""
+
 import pytest
 from encode_and_decode_strs import encode, decode
 
