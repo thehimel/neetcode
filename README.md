@@ -4,3 +4,8 @@
 
 * [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
   * [Solution]()
+
+## Credits
+
+* Image credits
+  * Neetcode
